@@ -21,7 +21,7 @@ namespace NR_6
                 Environment.Exit(0);
             }
 
-            for (int i = 1; i <= skaicius1; i++)
+            for (int i = 1; i <= skaicius1; i++) //for Tab * 2
             {
                 Console.WriteLine(i);
                 suma = i + suma;
