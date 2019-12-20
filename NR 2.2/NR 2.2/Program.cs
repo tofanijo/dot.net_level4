@@ -11,7 +11,7 @@ namespace NR_2._2
         static void Main(string[] args)
         {
             int skaicius = 0;
-            int suma = 0;
+            
 
             Console.WriteLine("Iveskite bet koki skaiciu");
             if (!int.TryParse(Console.ReadLine(), out skaicius))
@@ -21,7 +21,7 @@ namespace NR_2._2
                 Environment.Exit(0);
             }
 
-            for (int i = 1; i < skaicius; i+=2)
+            for (int i = 0; i < skaicius; i+=2)
             {
                 Console.WriteLine(i);
                 
