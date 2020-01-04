@@ -24,7 +24,7 @@ namespace NR_3._3._3
             Console.WriteLine("Pries:");
             foreach (var skaicius in ivestiSkaiciai)
             {
-                Console.WriteLine(skaicius);
+                Console.Write(skaicius);
             }
 
 
