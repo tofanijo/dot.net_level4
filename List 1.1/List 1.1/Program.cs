@@ -24,10 +24,11 @@ namespace List_1._1
             }
             foreach (var skaicius in skaiciai)
             {
-                if(skaicius%2 == 0)
-                Console.WriteLine(skaicius);
+                if (skaicius % 2 == 0)
+                {
+                    Console.WriteLine(skaicius);
+                }
 
-                Console.WriteLine(skaicius);
             }
             Console.ReadLine();
         }
